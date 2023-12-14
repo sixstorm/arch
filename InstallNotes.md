@@ -21,18 +21,23 @@ This document covers a very simple, minimal installation of Arch Linux with the 
 
 Obviously, you can add and remove anything you'd like.
 
-# Check for IP Address via DHCP
-```ip a```
+## Check for IP Address via DHCP
+```
+ip a
+```
 
-# Set NTP to True
+## Set NTP to True
+```
 timedatectl set-ntp true
 timedatectl status
+```
 
-# Drive Prep
+## Drive Prep
 
-## List all disks - Find name of your drive
-### In my case, it's /dev/nvme0n1
+### List all disks - Find name of your drive - In my case, it's /dev/nvme0n1
+```
 fdisk -l
+```
 
 ### Extra SATA SSD = /dev/sda
 ### NVME = /dev/nvme0n1
