@@ -21,9 +21,8 @@ This document covers a very simple, minimal installation of Arch Linux with the 
 
 Obviously, you can add and remove anything you'd like.
 
-```
 # Check for IP Address via DHCP
-ip a
+```ip a```
 
 # Set NTP to True
 timedatectl set-ntp true
